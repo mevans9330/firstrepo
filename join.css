@@ -1,0 +1,121 @@
+html footer {
+  margin-left: -20px; }
+
+html {
+  padding: 0px;
+  margin: -10px; }
+  @media screen and (min-width: 1040px) {
+    html {
+      width: 100%;
+      overflow-x: hidden;
+      height: 1500px;
+      -webkit-touch-callout: none;
+      /* iOS Safari */
+      -webkit-user-select: none;
+      /* Safari */
+      -moz-user-select: none;
+      /* Firefox */
+      -ms-user-select: none;
+      /* Internet Explorer/Edge */
+      user-select: none;
+      /* Non-prefixed version, currently
+																 supported by Chrome and Opera */ } }
+
+/*
+*{
+	user-select:none;
+
+}
+
+main{
+	display: none;
+}
+*/
+body {
+  background-color: #28691e;
+  color: #ffe600;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 15px; }
+  body h2 {
+    font-size: 32px; }
+  body h3 {
+    font-size: 23px; }
+
+li {
+  font-size: 20px; }
+
+footer {
+  font-size: 10.4px; }
+
+html {
+  overflow-y: hidden; }
+
+.mainNav {
+  box-sizing: border-box; }
+  .mainNav ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-left: -5%; }
+    .mainNav ul li {
+      list-style: none;
+      -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      text-align: center;
+      padding-left: 3%; }
+      .mainNav ul li a {
+        padding: 0;
+        display: block; }
+  .mainNav a {
+    text-decoration: none; }
+    .mainNav a:link {
+      color: rgba(240, 255, 255, 0.8); }
+    .mainNav a:visited {
+      color: rgba(240, 255, 255, 0.8); }
+    .mainNav a:hover {
+      color: #ffe600; }
+    .mainNav a:active {
+      color: #ffe600; }
+  .mainNav .current a:link {
+    color: #ffe600; }
+  .mainNav .current a:visited {
+    color: #ffe600; }
+
+.becomeMember {
+  width: 600px;
+  height: 400px;
+  border: 2px solid #ffe600;
+  border-radius: 10px;
+  background-color: rgba(45, 45, 45, 0.5);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 13px; }
+  .becomeMember .membersipInfo {
+    border-bottom: 3px solid #ffe600; }
+    .becomeMember .membersipInfo p {
+      padding-bottom: 10px; }
+
+.joinFormContainer {
+  width: 1500px;
+  height: 1000px;
+  border: 0px solid #ffe600;
+  border-radius: 0px;
+  background-color: rgba(45, 45, 45, 0.8);
+  margin-top: -600px; }
+
+.joinForm {
+  width: 300px;
+  height: 300px;
+  border: 1.4px solid #ffe600;
+  border-radius: 10px;
+  background-color: #2d2d2d;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto; }
